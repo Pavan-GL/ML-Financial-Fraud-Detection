@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="mt-5">Fraud Detection Prediction</h1>
+    <form method="POST" action="/predict" class="mt-4">
+        <!-- Feature 1 -->
+        <div class="form-group">
+            <label for="feature1">Feature 1 (e.g., Amount):</label>
+            <input type="number" step="any" class="form-control" id="feature1" name="feature1" required>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="form-group">
+            <label for="feature2">Feature 2 (e.g., Time):</label>
+            <input type="number" step="any" class="form-control" id="feature2" name="feature2" required>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="form-group">
+            <label for="feature3">Feature 3 (e.g., User ID):</label>
+            <input type="number" class="form-control" id="feature3" name="feature3" required>
+        </div>
+
+        <!-- Continue for features 4 through 30 -->
+        <div class="form-group">
+            <label for="feature4">Feature 4:</label>
+            <input type="number" step="any" class="form-control" id="feature4" name="feature4" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature5">Feature 5:</label>
+            <input type="number" step="any" class="form-control" id="feature5" name="feature5" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature6">Feature 6:</label>
+            <input type="number" step="any" class="form-control" id="feature6" name="feature6" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature7">Feature 7:</label>
+            <input type="number" step="any" class="form-control" id="feature7" name="feature7" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature8">Feature 8:</label>
+            <input type="number" step="any" class="form-control" id="feature8" name="feature8" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature9">Feature 9:</label>
+            <input type="number" step="any" class="form-control" id="feature9" name="feature9" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature10">Feature 10:</label>
+            <input type="number" step="any" class="form-control" id="feature10" name="feature10" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature11">Feature 11:</label>
+            <input type="number" step="any" class="form-control" id="feature11" name="feature11" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature12">Feature 12:</label>
+            <input type="number" step="any" class="form-control" id="feature12" name="feature12" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature13">Feature 13:</label>
+            <input type="number" step="any" class="form-control" id="feature13" name="feature13" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature14">Feature 14:</label>
+            <input type="number" step="any" class="form-control" id="feature14" name="feature14" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature15">Feature 15:</label>
+            <input type="number" step="any" class="form-control" id="feature15" name="feature15" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature16">Feature 16:</label>
+            <input type="number" step="any" class="form-control" id="feature16" name="feature16" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature17">Feature 17:</label>
+            <input type="number" step="any" class="form-control" id="feature17" name="feature17" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature18">Feature 18:</label>
+            <input type="number" step="any" class="form-control" id="feature18" name="feature18" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature19">Feature 19:</label>
+            <input type="number" step="any" class="form-control" id="feature19" name="feature19" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature20">Feature 20:</label>
+            <input type="number" step="any" class="form-control" id="feature20" name="feature20" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature21">Feature 21:</label>
+            <input type="number" step="any" class="form-control" id="feature21" name="feature21" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature22">Feature 22:</label>
+            <input type="number" step="any" class="form-control" id="feature22" name="feature22" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature23">Feature 23:</label>
+            <input type="number" step="any" class="form-control" id="feature23" name="feature23" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature24">Feature 24:</label>
+            <input type="number" step="any" class="form-control" id="feature24" name="feature24" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature25">Feature 25:</label>
+            <input type="number" step="any" class="form-control" id="feature25" name="feature25" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature26">Feature 26:</label>
+            <input type="number" step="any" class="form-control" id="feature26" name="feature26" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature27">Feature 27:</label>
+            <input type="number" step="any" class="form-control" id="feature27" name="feature27" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature28">Feature 28:</label>
+            <input type="number" step="any" class="form-control" id="feature28" name="feature28" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature29">Feature 29:</label>
+            <input type="number" step="any" class="form-control" id="feature29" name="feature29" required>
+        </div>
+
+        <div class="form-group">
+            <label for="feature30">Feature 30:</label>
+            <input type="number" step="any" class="form-control" id="feature30" name="feature30" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    {% if prediction is not none %}
+        <h2 class="mt-4">Prediction Result</h2>
+        <p>Fraud Prediction: {{ prediction }}</p>
+        <p>Fraud Probability: {{ probability }}</p>
+    {% endif %}
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

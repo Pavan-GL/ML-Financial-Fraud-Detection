@@ -1,0 +1,13 @@
+2024-09-26 11:45:38,347 - INFO - Loading data from D:\ML Financial Fraud Detection\data\creditcard.csv
+2024-09-26 11:45:38,358 - INFO - Data loaded successfully. Shape: (1000, 31)
+2024-09-26 11:45:38,364 - INFO - Feature scaling completed and original columns dropped.
+2024-09-26 11:45:38,365 - INFO - Class distribution: Counter({0: 999, 1: 1})
+2024-09-26 11:45:38,365 - WARNING - One or more classes have fewer than 2 members. Removing these classes.
+2024-09-26 11:45:38,368 - INFO - Data split into train and test sets.
+2024-09-26 11:45:38,369 - INFO - Processed data saved to D:\ML Financial Fraud Detection\data\processed_data.pkl
+2024-09-26 11:59:35,203 - INFO - Loading data from D:\ML Financial Fraud Detection\data\creditcard.csv
+2024-09-26 11:59:35,215 - INFO - Data loaded successfully. Shape: (1000, 31)
+2024-09-26 11:59:35,225 - INFO - Feature scaling completed and original columns dropped.
+2024-09-26 11:59:35,227 - INFO - Class distribution: Counter({0: 900, 1: 100})
+2024-09-26 11:59:35,229 - INFO - Data split into train and test sets.
+2024-09-26 11:59:35,231 - INFO - Processed data saved to D:\ML Financial Fraud Detection\data\processed_data.pkl

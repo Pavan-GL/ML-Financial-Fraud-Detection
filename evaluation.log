@@ -1,0 +1,32 @@
+2024-09-26 12:11:49,713 - INFO - Model loaded from D:\ML Financial Fraud Detection\models\logistic_regression.pkl
+2024-09-26 12:11:49,819 - INFO - Accuracy: 0.9000
+2024-09-26 12:11:49,819 - INFO - AUC-ROC: 0.4952
+2024-09-26 12:11:49,820 - INFO - Confusion Matrix:
+[[270   0]
+ [ 30   0]]
+2024-09-26 12:11:49,821 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95       270
+           1       0.00      0.00      0.00        30
+
+    accuracy                           0.90       300
+   macro avg       0.45      0.50      0.47       300
+weighted avg       0.81      0.90      0.85       300
+
+2024-09-26 12:11:50,815 - INFO - Model loaded from D:\ML Financial Fraud Detection\models\xgboost_model.pkl
+2024-09-26 12:11:50,897 - INFO - Accuracy: 0.8933
+2024-09-26 12:11:50,897 - INFO - AUC-ROC: 0.5190
+2024-09-26 12:11:50,898 - INFO - Confusion Matrix:
+[[268   2]
+ [ 30   0]]
+2024-09-26 12:11:50,898 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.99      0.94       270
+           1       0.00      0.00      0.00        30
+
+    accuracy                           0.89       300
+   macro avg       0.45      0.50      0.47       300
+weighted avg       0.81      0.89      0.85       300
+

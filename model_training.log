@@ -1,0 +1,33 @@
+2024-09-26 11:51:16,931 - INFO - Data loaded from pickle file successfully.
+2024-09-26 11:51:16,963 - ERROR - Error during Logistic Regression model training: This solver needs samples of at least 2 classes in the data, but the data contains only one class: 0
+2024-09-26 11:52:08,530 - INFO - Data loaded from pickle file successfully.
+2024-09-26 11:52:08,532 - INFO - Class distribution in training data: {0: 699}
+2024-09-26 11:52:08,532 - ERROR - Training data contains only one class.
+2024-09-26 11:52:58,400 - INFO - Data loaded from pickle file successfully.
+2024-09-26 11:52:58,401 - INFO - Class distribution in training data: {0: 699}
+2024-09-26 11:52:58,401 - ERROR - Training data contains only one class.
+2024-09-26 11:54:11,188 - INFO - Data loaded from pickle file successfully.
+2024-09-26 11:54:11,189 - INFO - Class distribution in training data: {0: 699}
+2024-09-26 11:54:11,189 - INFO - Unique classes in y_train: [0]
+2024-09-26 11:54:11,190 - INFO - Counts in y_train: [699]
+2024-09-26 11:54:11,190 - ERROR - Training data contains only one class.
+2024-09-26 11:59:41,131 - INFO - Data loaded from pickle file successfully.
+2024-09-26 11:59:41,132 - INFO - Class distribution in training data: {0: 630, 1: 70}
+2024-09-26 11:59:41,132 - INFO - Unique classes in y_train: [0 1]
+2024-09-26 11:59:41,133 - INFO - Counts in y_train: [630  70]
+2024-09-26 11:59:41,273 - ERROR - Error during Logistic Regression model training: [Errno 2] No such file or directory: '..\\models\\logistic_regression.pkl'
+2024-09-26 12:00:42,254 - INFO - Data loaded from pickle file successfully.
+2024-09-26 12:00:42,255 - INFO - Class distribution in training data: {0: 630, 1: 70}
+2024-09-26 12:00:42,255 - INFO - Unique classes in y_train: [0 1]
+2024-09-26 12:00:42,255 - INFO - Counts in y_train: [630  70]
+2024-09-26 12:00:42,261 - ERROR - Error during Logistic Regression model training: [Errno 2] No such file or directory: '..\\models\\logistic_regression.pkl'
+2024-09-26 12:01:49,773 - INFO - Data loaded from pickle file successfully.
+2024-09-26 12:01:49,773 - INFO - Class distribution in training data: {0: 630, 1: 70}
+2024-09-26 12:01:49,774 - INFO - Unique classes in y_train: [0 1]
+2024-09-26 12:01:49,774 - INFO - Counts in y_train: [630  70]
+2024-09-26 12:01:49,781 - INFO - Logistic Regression model trained and saved to ..\models\logistic_regression.pkl.
+2024-09-26 12:01:49,781 - INFO - Class distribution in training data: {0: 630, 1: 70}
+2024-09-26 12:01:49,781 - INFO - Unique classes in y_train: [0 1]
+2024-09-26 12:01:49,782 - INFO - Counts in y_train: [630  70]
+2024-09-26 12:01:50,097 - INFO - XGBoost model trained and saved to ..\models\xgboost_model.pkl.
+2024-09-26 12:01:50,097 - INFO - All models trained and saved successfully.
